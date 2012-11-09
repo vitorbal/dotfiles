@@ -1,0 +1,18 @@
+[color]
+	ui = true
+[user]
+	name = Vitor Balocco
+	email = vitorbal@gmail.com
+[alias]
+    b = branch
+    f = fetch
+    co = checkout
+    ci = commit
+    cp = cherry-pick
+    com = checkout master
+    lp = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    mav = !afplay ~/Music/Danger\\ Zone.mp3 & LASTPID=$! \ngit rebase -i $1 \nkill -9 $LASTPID\n true 
+[http]
+#	proxy = http://tst-proxy:8888
+[credential]
+	helper = osxkeychain
