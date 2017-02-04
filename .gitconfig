@@ -10,6 +10,8 @@
     ci = commit
     cp = cherry-pick
     com = checkout master
+    st = status
+    pl = pull
     lp = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
     mav = !afplay ~/Music/Danger\\ Zone.mp3 & LASTPID=$! \ngit rebase -i $1 \nkill -9 $LASTPID\n true 
 [http]
