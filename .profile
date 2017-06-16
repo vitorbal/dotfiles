@@ -1,3 +1,13 @@
+# vim bindings on shell (that's right, deal with it)
+set -o vi
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+# Add git completion to aliases
+__git_complete g __git_main
+
 alias g='git'
 alias dc="docker-compose"
 alias dcu="docker-compose up -d"
