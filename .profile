@@ -1,4 +1,7 @@
 alias g='git'
+alias dc="docker-compose"
+alias dcu="docker-compose up -d"
+alias nrw="npm run watch"
 
 # get current branch in git repo
 function parse_git_branch() {
